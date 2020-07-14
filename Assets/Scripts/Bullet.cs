@@ -8,6 +8,7 @@ public class Bullet : MonoBehaviour
     public Vector3 targetVector;    // the direction it travels
     public float lifetime = 10f;     // how long it lives before destroying itself
     public float damage = 10;       // how much damage this projectile causes
+    public string colour = "red";
 
     // Start is called before the first frame update
     void Start()
